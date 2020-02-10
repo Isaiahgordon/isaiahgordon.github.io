@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isaiah Gordon</title>
+    <style>
+        body{
+            color: #fff;
+            font-family: 'Arial';
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        #content{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(4,minmax(150px,auto));
+            grid-gap: 5px;
+            margin: 0 auto;
+        }
+        #content div{
+            padding: 30px;
+        }
+        #content div:nth-child(even){
+        }
+        .header{
+            grid-column: 1/7;
+            padding: 60px;
+            text-align: center;
+            background: ##005bb5;
+            color: white;
+            font-size: 20px;
+            outline: 5px #004ecc;
+        }
+        .content{
+            grid-column: 1/5;
+            grid-row: 2/3;
+            background: #004ecc;
+        }
+        .nav{
+            grid-column: 5/7;
+        }
+        .footer{
+            grid-column: 1/7;
+            background: #004ecc;
+        }
+         .button{
+                width: 200px;
+                background-color: #3e71c2;
+                text-align: center;
+                margin-bottom: 5px;
+                padding: 10px;
+                outline: 5px ridge black;
+                font-weight: bold;
+                font-size: 15px;
+         }
+        .button:hover{
+              	background-color:#FF0000;
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+  <div id="content">
+
+          <div class="header">
+              <h1>Isaiah Gordon</h1>
+            <p>"IT Support and Customer Service</p>
+          </div>
+
+          <div class="nav">
+              <p class="button">About us</p>
+              <p class="button">Products & services</p>
+              <p class="button">Contact us</p>
+              <p class="button">Careers</p>
+              <p class="button">Why the buttons don't work</p>
+          </div>
+
+          <div class="footer">
+              <img class="lizard-blue" src="graphics/blue_lizard_gif.gif">
+          </div>
+
+
+      </div>
+  </body>
+  </html>
